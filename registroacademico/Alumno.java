@@ -37,6 +37,11 @@ public class Alumno extends DatoGeneral {
         System.out.println("Encargado: " + encargado);
 
     }
+    @Override
+    public void imprimir() {
+        System.out.println("Imprimiendo datos del alumno:");
+        
+    }
 
 }
 
