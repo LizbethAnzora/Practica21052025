@@ -22,5 +22,15 @@ public class Maestro extends DatoGeneral {
     public void setGrados(String grados) {
         this.grados = grados;
     }
+    public void pasarLista() {
+        System.out.println("Pasando lista del maestro " + getNombre() + ":");
+        // Aquí se pueden agregar los alumnos a la lista
+    }
+    @Override
+    public void modificar() {
+        System.out.println("Modificación de maestro:");
+        System.out.println("Número de DUI: " + dui);
+        System.out.println("Grados: " + grados);
+    }
 
 }
