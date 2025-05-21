@@ -35,8 +35,9 @@ public class Alumno extends DatoGeneral {
         System.out.println("Registro de alumno:");
         System.out.println("Número de carnet: " + nCarnet);
         System.out.println("Encargado: " + encargado);
+
     }
 
- }
+}
 
 
